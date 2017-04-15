@@ -1,0 +1,294 @@
+/* ENTIRE WEBSITE */
+
+body {
+    background-color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background-color: #f1faee;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #e91e23;
+    font-size: 20px;
+}
+
+#logo {
+    width:70%;
+    float: left;
+    color: #272727;
+    font-size: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: auto;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+nav {
+    color: #e91e23;
+    text-align: right;
+    padding-right: 3%;
+    line-height: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #f1faee;
+}
+
+nav a:hover {
+    text-transform: uppercase;
+}
+
+nav .current {
+    text-transform: uppercase;
+}
+
+h4 {
+    font-variant: small-caps;
+    font-size: 24px;
+}
+
+h5 {
+    display: inline;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    clear: both; 
+    background-color: #e91e23;
+    color: #f1faee;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom:0px;
+    height: auto;
+    width: 100%;
+    z-index: 1000;
+}
+
+#copyright {
+    width: 30%;
+    font-variant: small-caps;
+    text-align: left;
+    padding-left: 3%;
+    display: inherit;
+    float: left;
+}
+
+#contact {
+    width: 60%;
+    display: inherit;
+    text-align: right;
+    float: right;
+}
+
+#contact p {
+    display: none;
+}
+
+footer img {
+    width: 5%;
+    margin: 1%;
+    padding: 1%;
+}
+
+footer a img{
+    text-decoration: none;
+}
+
+footer img:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
+
+/* LANDING PAGE */
+
+button {
+    background-color: #e91e23;
+    border: 0px;
+    border-radius: 8px;
+    color: #F1FAEE;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding: 14px 40px;
+    border: 1px solid #e91e23;
+}
+
+button:hover {
+    color: #e91e23;
+    background-color: transparent;
+    border: 1px solid #e91e23;
+    transition-duration: 2s;
+}
+
+#landing-page {
+    
+    background: url(../img/landing-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#landing-page main {
+    width: 60%;
+    margin: auto;
+    padding-top: 15%;
+    
+}
+
+#landing-page h1 {
+    color: #272727;
+    font-size: 42px;
+    font-weight: normal;
+    padding: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#landing-page h2 {
+    color: #272727;
+    margin-top: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+#logo {
+    width:30%;
+    float: left;
+    color: #5B6#272727;
+    font-size: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: auto;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+#landing-page nav li {
+    font-size: 20px;
+}
+
+/* ABOUT PAGE */
+
+#about {
+    clear: both; 
+}
+
+#about-info {
+    float: left;
+    width: 50%;
+}
+
+#about-img {
+    float: right;
+    width: 40%;
+    margin: 20px 10px; 
+    display: inline-block;
+    position: relative;
+}
+
+#me {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#me2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+}
+
+#about-img:hover #me2 {
+    display: inline;
+}
+
+
+
+
+
+
+
+/* PORTFOLIO GRID */
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.entry {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    height: auto;
+    display: inline-block;
+    text-align: left; 
+}
+
+.entry img {
+    width: 100%;
+    height: auto;
+    filter: blur(1px);
+}
+
+.entry img:hover {
+    filter: blur(0px);
+}
+.clearfix {
+    overflow: auto;
+}
+
+figcaption {
+    font-size: 16px;
+}
+
+.project-heading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#row-4 {
+    height: 10%;
+    width: 100%;
+}
+
+.empty {
+    display: none;
+}
