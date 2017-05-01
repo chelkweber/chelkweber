@@ -3,13 +3,14 @@
     /* NAV BAR */
     
     #logo {
-        float: left;
-        text-align: center;
-        width: 30%;
+        display: inline-block;
+        width: 40%;
+		padding-top: 2%;
     }
     
     nav {
-        float: right;
+        display: inline-block;
+		width: 57%;
     }
     
     nav a:hover {
@@ -22,7 +23,11 @@
     
     /* FOOTER */
     
-    #copyright {
+	footer {
+		margin-top: 20%;
+	}
+	
+	#copyright {
         display: none;
     }
     
@@ -62,17 +67,21 @@
     
     .entry {
         width: 40%;
-        float: left;
-        margin: 2% 5%;
-    }
-  
-    #last-entry { /* how do I make this just the last one in the last row, or the last row?*/
-        display: none;
-    }
+        display: inline-block;
+		margin-left: 3%;
+	}
+	
+	figcaption {
+		padding-bottom: 30px;
+	}
+	
+	.ignore {
+		display: none;
+	}
     
 }
     
-@media screen and (max-width: 543px) {
+@media screen and (max-width: 635px) {
     
     /* NAV BAR */    
     header {
@@ -82,20 +91,25 @@
     
     
     #logo {
-        float: none;
+        display: block;
         text-align: center;
         width: 100%;
+		margin: 1%;
+		padding: 2%;
     }
     
     nav {
-        float: none;
+		display: block;
         text-align: center;
+		width: 96%;
     }
     
     nav li {
         display: block;
         margin: 0 auto;
         line-height: 90%;
+		padding: 2%;
+		font-size: 18px;
     }
     
     /* FOOTER */
