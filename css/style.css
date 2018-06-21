@@ -7,6 +7,10 @@ body {
     background-color: #f1faee;
 }
 
+.portfolio {
+  margin-bottom: 100px;
+}
+
 .wrapper {
     max-width: 940px;
     margin: 0 auto;
